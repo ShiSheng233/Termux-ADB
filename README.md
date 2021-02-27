@@ -3,7 +3,9 @@
 > Install ADB & FastBoot Tools in Termux
 
 For devices with ARM or ARM64 processors only.
+
 Now using Jsdelivr CDN for file transfer.
+
 ADB kernel version may be updated **later**.
 
 ## How to install
