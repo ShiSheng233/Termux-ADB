@@ -7,11 +7,11 @@ echo
 echo -e "\e[32m[*] \e[34mDownloading wrapper script..."
 mkdir $PREFIX/tmp/adbtemp
 downpath="$PREFIX/tmp/adbtemp"
-wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin/adb -P $downpath/ -q
+wget https://cdn.jsdelivr.net/gh/ShiSheng233/Termux-ADB@master/bin/adb -P $downpath/ -q
 echo -e "\e[32m[*] \e[34mDownloading binaries..."
-wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin/adb.bin -P $downpath/ -q
-wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin/fastboot -P $downpath/ -q
-wget https://github.com/MasterDevX/Termux-ADB/raw/master/bin/fastboot-armeabi -P $downpath/ -q
+wget https://cdn.jsdelivr.net/gh/ShiSheng233/Termux-ADB@master/bin/adb.bin -P $downpath/ -q
+wget https://cdn.jsdelivr.net/gh/ShiSheng233/Termux-ADB@master/bin/fastboot -P $downpath/ -q
+wget https://cdn.jsdelivr.net/gh/ShiSheng233/Termux-ADB@master/bin/fastboot-armeabi -P $downpath/ -q
 echo -e "\e[32m[*] \e[34mCopying files to bin..."
 cp $downpath/* $PREFIX/bin
 echo -e "\e[32m[*] \e[34mSetting execution permissions..."
@@ -29,4 +29,6 @@ rm -rf $downpath
 rm -rf InstallTools.sh
 echo
 echo -e "\e[32mTools were successfully installed!\e[39m"
+echo
+echo -e "\e[93mPowered by ShiSheng with Love"
 echo

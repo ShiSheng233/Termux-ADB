@@ -19,3 +19,5 @@ rm -rf RemoveTools.sh
 echo
 echo -e "\e[32mTools were successfully uninstalled!\e[39m"
 echo
+echo -e "\e[93mPowered by ShiSheng with Love"
+echo
