@@ -1,5 +1,7 @@
 # Termux-ADB
 
+[![](https://data.jsdelivr.com/v1/package/gh/ShiSheng233/Termux-ADB/badge)](https://www.jsdelivr.com/package/gh/ShiSheng233/Termux-ADB)
+
 > Install ADB & FastBoot Tools in Termux
 
 For devices with ARM or ARM64 processors only.
